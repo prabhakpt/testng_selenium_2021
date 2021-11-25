@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.murx.test.PatientRegistrationTest">
+        <methods>
+          <include name="test"/>
+          <include name="clickPatientRegistrationButton"/>
+          <include name="loginToApplication"/>
+          <include name="setupDriver"/>
+          <include name="accessHomePage"/>
+          <include name="accessPatientManagementLink"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.murx.test.PatientRegistrationTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
